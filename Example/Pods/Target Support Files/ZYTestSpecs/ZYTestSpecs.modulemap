@@ -1,0 +1,6 @@
+framework module ZYTestSpecs {
+  umbrella header "ZYTestSpecs-umbrella.h"
+
+  export *
+  module * { export * }
+}
