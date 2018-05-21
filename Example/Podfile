@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZYTestSpecs_Example' do
+  pod 'ZYTestSpecs', :path => '../'
+
+  target 'ZYTestSpecs_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
